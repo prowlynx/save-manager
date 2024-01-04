@@ -59,14 +59,15 @@ If any of these fail you will receive errors in your console relating to the pac
 Open the scene you want to have save data attached to (you can repeat the process for more than one scene).
 
 1. Create a new empty GameObject:
+
 ![Creating empty object by right clicking scene and selecting Create Empty](example-1-images/image.png)
 
-2. Rename it appropriately ("Save Manager").
+3. Rename it appropriately ("Save Manager").
 
-3. Add a Save Manager component to the game object (`Scripting -> Prowlynx.SaveManager.Managers -> Save Manager`)
+4. Add a Save Manager component to the game object (`Scripting -> Prowlynx.SaveManager.Managers -> Save Manager`)
 ![Adding component](example-1-images/image-1.png)
 
-4. Change configuration as you desire, if you use Unity Cloud Saving please make sure you have configured Cloud Save on https://cloud.unity.com (note: you can hover over options for a tooltip):
+5. Change configuration as you desire, if you use Unity Cloud Saving please make sure you have configured Cloud Save on https://cloud.unity.com (note: you can hover over options for a tooltip):
 ![Configuration options with tooltip visible](example-1-images/image-2.png)
 
 # Step 3 - Create ISaveCapable
